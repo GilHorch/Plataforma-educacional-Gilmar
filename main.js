@@ -2,12 +2,26 @@
     const pages = {
       material: `
 <div class="page">
- <div class="hero"><h1>📚 Material de Estudo</h1><p>Bem-vindo à plataforma. Consulte somente os materiais disponibilizados pelo professor.</p></div>
- <div class="grid">
-  <div class="card"><h3>📘 Conceitos principais</h3><p>Espaço destinado ao texto, conceitos e explicações da aula.</p><button class="primary" onclick="showText()">Abrir conteúdo</button></div>
+ <div class="hero">
+    <h1>📚 Material de Estudo</h1>
+    <p>Bem-vindo à plataforma. Consulte somente os materiais disponibilizados pelo professor.</p>
+</div>
+
+<div class="grid">
+  <div class="card">
+    <h3>📘 Conceitos principais</h3>
+    <p>Espaço destinado ao texto, conceitos e explicações da aula.</p>
+    <button class="primary" onclick="showText()">Abrir conteúdo
+    <a href="https://cursos.alura.com.br/loginForm?urlAfterLogin=%5BaHR0cHM6Ly9jdXJzb3MuYWx1cmEuY29tLmJyLw%5D">Plataforma alura</a>
+    </button>
+</div>
+
+
   <div class="card"><h3>🎬 Vídeo da aula</h3><p>Área reservada para um vídeo selecionado pelo professor.</p><button class="secondary" onclick="toast('Vídeo ainda não configurado.')">Assistir</button></div>
   <div class="card"><h3>📄 Documento</h3><p>Área para apostilas, roteiros ou outros documentos da atividade.</p><button class="secondary" onclick="toast('Documento ainda não configurado.')">Abrir documento</button></div>
  </div>
+
+
  <div id="textArea"></div>
  <footer>Material disponibilizado pelo professor • Plataforma Educacional v1.0</footer>
 </div>`,
