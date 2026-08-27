@@ -11,11 +11,8 @@
     <div class="card">
         <h3>📘 Conceitos principais</h3>
         <p>Espaço destinado ao texto, conceitos e explicações da aula.
-        <a href="https://cursos.alura.com.br/loginForm?urlAfterLogin=%5BaHR0cHM6Ly9jdXJzb3MuYWx1cmEuY29tLmJyLw%5D">Plataforma alura</a>
-        </p>
-        
-        <a href="https://cursos.alura.com.br/loginForm?urlAfterLogin=%5BaHR0cHM6Ly9jdXJzb3MuYWx1cmEuY29tLmJyLw%5D">Plataforma alura</a>
-        
+        <a href="https://cursos.alura.com.br/loginForm?urlAfterLogin=%5BaHR0cHM6Ly9jdXJzb3MuYWx1cmEuY29tLmJyLw%5D" target="_self">Plataforma alura</a>
+        </p>     
         <button class="primary" onclick="showText()">Abrir conteúdo</button>
 
         
