@@ -24,7 +24,11 @@
         <button class="secondary" onclick="toast('Vídeo ainda não configurado.')">Assistir</button>
     </div>
   
-    <div class="card"><h3>📄 Documento</h3><p>Área para apostilas, roteiros ou outros documentos da atividade.</p><button class="secondary" onclick="toast('Documento ainda não configurado.')">Abrir documento</button></div>
+    <div class="card">
+        <h3>📄 Documento</h3>
+        <p>Área para apostilas, roteiros ou outros documentos da atividade.</p>
+        <button class="secondary" onclick="toast('Documento ainda não configurado.')">Abrir documento</button>
+    </div>
  
     </div>
 
